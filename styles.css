@@ -215,6 +215,9 @@ section {
 .text-\[\#fc8bed\] {
   color: #fc8bed;
 }
+.text-\[color\:var\(--color-accent-hover\)\] {
+  color: var(--color-accent-hover);
+}
 .flow > * + * {
   margin-top: var(--space-md);
 }
