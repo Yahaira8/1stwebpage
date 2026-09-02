@@ -212,6 +212,9 @@ section {
 .muted {
   color: var(--color-text-muted);
 }
+.text-\[\#fc8bed\] {
+  color: #fc8bed;
+}
 .flow > * + * {
   margin-top: var(--space-md);
 }
