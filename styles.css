@@ -223,6 +223,23 @@ section {
 }
 
 /* ------------------------------------------------------------------
+   7. Image Scaling
+   ------------------------------------------------------------------ */
+.scaled-image {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: var(--space-md) auto;
+}
+
+.desktop-image {
+  max-width: 800px;
+  height: auto;
+  display: block;
+  margin: var(--space-md) auto;
+}
+
+/* ------------------------------------------------------------------
    7. Reduced motion — accessibility
    ------------------------------------------------------------------ */
 @media (prefers-reduced-motion: reduce) {
